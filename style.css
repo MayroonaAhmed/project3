@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+
+body{
+    font-family: "Cairo", sans-serif;
+}
+.header{
+    border-bottom:3px solid brown;
+    color: black;
+    font-weight: 700;
+    height: 50px;
+    line-height:50px ;
+
+}
+
+.header a{
+    margin-top: 5px;
+    float: right;
+    padding-right: 5px;
+}
+.header .icon{
+  margin-top: 5px;
+  float: left;
+  color: black;
+  text-decoration: none;
+  padding-right: 5px;
+}
+
+.feutures{
+    margin-top: 75px;
+}
+.feutures i {
+    width: 90px;
+    height: 90px;
+    background-color: brown;
+    line-height: 100px;
+    color: white;
+    font-size: 40px;
+}
+.feutures h3{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.feutures p{
+      line-height: 1.8;
+  }
+  .feutures h2{
+    font-size: 35px;
+    margin-bottom: 30px;
+  }
+
+.our-team{
+    background-color:#fafafa ;
+    padding: 20px;
+  }
+
+  .Statistic{
+    width: 100%;
+    height: 500px;
+    margin-top: 100px;
+    background-image: url(../image/toyota-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  .Statistic .deverlay{
+    padding-top: 130px;
+    background-color: rgba(0,0,0,0.294);
+    width: 100%;
+    height: 100%;
+  }
+
+  .Statistic .deverlay h3{
+    color: white;
+  }
+
+  .Statistic .deverlay p{
+    color: white;
+    font-size: 70px;
+  }
+
+.Our-Customers{
+  height: 300px;
+  background-color: #fafafa;
+  line-height: 200px;
+}
+
+footer{
+  background-color: #e7e6e6 ;
+  padding-top: 30px;
+  margin-top: 150px;
+}
+
+footer p{
+  color: black;
+}
+footer h2{
+  color: black;
+}
+footer a{
+  color: black;
+}
+
+footer a:hover{
+  color: darkblue;
+}
+
+footer ul li{
+  list-style: none;
+}
+
+.jumbotron{
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.jumbotron blog_info{
+            flex: 2;
+}
+.jumbotron blog_image{
+  flex: 1;
+}
+
+.blog_details p{
+  line-height: 2;
+  padding: 10px;
+}
+
